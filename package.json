@@ -1,0 +1,17 @@
+{
+  "name": "local-airnode",
+  "version": "1.0.0",
+  "description": "```sh npx @api3/airnode-admin generate-airnode-mnemonic ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@api3/airnode-admin": "^0.14.0",
+    "dotenv": "^16.4.1",
+    "ethers": "^6.10.0"
+  }
+}
