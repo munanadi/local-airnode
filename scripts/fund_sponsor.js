@@ -12,10 +12,10 @@ async function main() {
   // Airnode Parameters
   // https://docs.api3.org/reference/qrng/providers.html
 
-  const airnodeAddress = "0x4D1AbD47AdaFc2073B6e7E074C411075C0a80B9D";
-  const airnodeXpub = "xpub6CpU7QoFYgVu25ki5SEcGHgFFwL3SWzBnTXMoCrUVdfazmEyrJZMzgkSYUGDqypJU6k2vXz3vdwmzncouWqWd7tK3iJqg45gVBV77Z2QGXG";
-  const yourDeployedContractAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
-  const amountInEther = 0.1;
+  const airnodeAddress = "0x55f921E8dc6ff46c608C688949620163cd573642";
+  const airnodeXpub = "xpub6BkKZrd73VX9C4vbsry9Y9woAMnhoGLZKE1xnCFmHfDWb7WdP2cdPEfCNuwnDTvyfNRUkYgCA87vHRsMyTS4RCMkPvFqHbXX6cvK2DeqWYX";
+  const yourDeployedContractAddress = "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0";
+  const amountInEther = 1;
 
   // Connect to a provider (e.g., Infura, Alchemy)
   const provider = new ethers.JsonRpcProvider(process.env.PROVIDER_URL);
